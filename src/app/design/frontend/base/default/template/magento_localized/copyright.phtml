@@ -4,8 +4,8 @@
     <?php $localeCode = Mage::app()->getLocale()->getLocaleCode() ?>
     <?php if (strpos($localeCode, 'de_') === 0): ?>
         <?php echo Mage::helper('magento_localized')->__('<a href="%s" target="_blank">%s</a> is a project of the Magento community',
-            'Magento DE',
-            'http://de.nr-apps.com/store/magento-de.html'
+            'http://de.nr-apps.com/store/magento-de.html',
+            'Magento AT'
         ) ?>
         <?php echo Mage::helper('magento_localized')->__('powered by') ?>
         <?php echo Mage::helper('magento_localized')->__('<a href="%s" target="_blank">Netresearch App Factory</a>, <a href="%s" target="_blank">integer_net</a> &amp; <a href="%s" target="_blank">LimeSoda</a>',
@@ -15,8 +15,8 @@
         ) ?>
     <?php else: ?>
         <?php echo Mage::helper('magento_localized')->__('<a href="%s" target="_blank">%s</a> is a project of the Magento community',
-            'Magento DE',
-            'http://www.nr-apps.com/store/magento-de.html'
+            'http://www.nr-apps.com/store/magento-de.html',
+            'Magento AT'
         ) ?>
         <?php echo Mage::helper('magento_localized')->__('powered by') ?>
         <?php echo Mage::helper('magento_localized')->__('<a href="%s" target="_blank">Netresearch App Factory</a>, <a href="%s" target="_blank">integer_net</a> &amp; <a href="%s" target="_blank">LimeSoda</a>',

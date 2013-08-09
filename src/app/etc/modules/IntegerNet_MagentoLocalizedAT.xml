@@ -15,6 +15,9 @@
         <IntegerNet_MagentoLocalizedAT>
             <active>true</active>
             <codePool>community</codePool>
+            <depends>
+                <IntegerNet_MagentoLocalized />
+            </depends>
         </IntegerNet_MagentoLocalizedAT>
     </modules>
 </config>

@@ -4,12 +4,12 @@
         <system>
             <children>
                 <magento_localized>
-                    <title>Magento CH</title>
+                    <title>Magento AT</title>
                 </magento_localized>
             </children>
         </system>
         <magento_localized>
-            <title>Magento CH</title>
+            <title>Magento AT</title>
         </magento_localized>
     </menu>
     <acl>
@@ -19,12 +19,12 @@
                     <system>
                         <children>
                             <magento_localized>
-                                <title>Magento CH</title>
+                                <title>Magento AT</title>
                             </magento_localized>
                         </children>
                     </system>
                     <magento_localized>
-                        <title>Magento CH</title>
+                        <title>Magento AT</title>
                     </magento_localized>
                 </children>
             </admin>
