@@ -157,6 +157,36 @@
             <currency>EUR</currency>
             <timezone>Europe/Berlin</timezone>
             <form_fields>
+                <general__imprint__vat_id>
+                    <type>text</type>
+                    <label>VAT-ID</label>
+                    <sorting>200</sorting>
+                    <optional>1</optional>
+                </general__imprint__vat_id>
+                <general__imprint__tax_number>
+                    <type>text</type>
+                    <label>Tax number</label>
+                    <sorting>210</sorting>
+                    <optional>1</optional>
+                </general__imprint__tax_number>
+                <general__imprint__court>
+                    <type>text</type>
+                    <label>Register court</label>
+                    <sorting>220</sorting>
+                    <optional>1</optional>
+                </general__imprint__court>
+                <general__imprint__register_number>
+                    <type>text</type>
+                    <label>Register number</label>
+                    <sorting>230</sorting>
+                    <optional>1</optional>
+                </general__imprint__register_number>
+                <general__imprint__financial_office>
+                    <type>text</type>
+                    <label>Financial office</label>
+                    <sorting>240</sorting>
+                    <optional>1</optional>
+                </general__imprint__financial_office>
                 <general__imprint__ceo>
                     <type>text</type>
                     <label>CEO</label>
@@ -169,6 +199,82 @@
                     <sorting>260</sorting>
                     <optional>1</optional>
                 </general__imprint__owner>
+                <general__imprint__authority>
+                    <type>text</type>
+                    <label>Authority (ECG)</label>
+                    <sorting>270</sorting>
+                    <optional>1</optional>
+                </general__imprint__authority>
+                <general__imprint__shareholdings>
+                    <type>textarea</type>
+                    <label>Shareholdings</label>
+                    <sorting>280</sorting>
+                    <optional>1</optional>
+                </general__imprint__shareholdings>
+                <general__imprint__editorial_concept>
+                    <type>text</type>
+                    <label>Editorial Concept</label>
+                    <sorting>290</sorting>
+                    <optional>1</optional>
+                </general__imprint__editorial_concept>
+                <general__imprint__bank_account_owner>
+                    <type>text</type>
+                    <label>Account owner</label>
+                    <sorting>300</sorting>
+                    <optional>0</optional>
+                </general__imprint__bank_account_owner>
+                <general__imprint__bank_account>
+                    <type>text</type>
+                    <label>Account</label>
+                    <sorting>310</sorting>
+                    <optional>0</optional>
+                </general__imprint__bank_account>
+                <general__imprint__bank_code_number>
+                    <type>text</type>
+                    <label>Bank number</label>
+                    <sorting>320</sorting>
+                    <optional>0</optional>
+                </general__imprint__bank_code_number>
+                <general__imprint__bank_name>
+                    <type>text</type>
+                    <label>Bank name</label>
+                    <sorting>330</sorting>
+                    <optional>0</optional>
+                </general__imprint__bank_name>
+                <general__imprint__swift>
+                    <type>text</type>
+                    <label>SWIFT</label>
+                    <sorting>340</sorting>
+                    <optional>0</optional>
+                </general__imprint__swift>
+                <general__imprint__iban>
+                    <type>text</type>
+                    <label>IBAN</label>
+                    <sorting>350</sorting>
+                    <optional>0</optional>
+                </general__imprint__iban>
+
+
+
+                array(
+                'type' => 'text',
+                'name' => 'general__imprint__authority',
+                'label' => Mage::helper('germansetup')->__('Authority (ECG)'),
+                'optional' => true,
+                ),
+                array(
+                'type' => 'textarea',
+                'name' => 'general__imprint__shareholdings',
+                'label' => Mage::helper('germansetup')->__('Shareholdings'),
+                'optional' => true,
+                ),
+                array(
+                'type' => 'text',
+                'name' => 'general__imprint__editorial_concept',
+                'label' => Mage::helper('germansetup')->__('Editorial Concept'),
+                'optional' => true,
+                ),
+
             </form_fields>
             <modules>
                 <firegento_pdf>
