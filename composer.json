@@ -1,0 +1,9 @@
+{
+   "name": "integer-net/magento-localized-at",
+   "type": "magento-module",
+   "description": "Austrian Localization package for Magento Localized (aka Magento AT)",
+   "homepage": "https://github.com/integer-net/MagentoLocalizedAT",
+   "require": {
+      "magento-hackathon/magento-composer-installer": "*"
+   }
+}

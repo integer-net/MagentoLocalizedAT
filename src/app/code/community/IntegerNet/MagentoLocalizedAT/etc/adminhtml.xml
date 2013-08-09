@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <system>
+            <children>
+                <magento_localized>
+                    <title>Magento CH</title>
+                </magento_localized>
+            </children>
+        </system>
+        <magento_localized>
+            <title>Magento CH</title>
+        </magento_localized>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <magento_localized>
+                                <title>Magento CH</title>
+                            </magento_localized>
+                        </children>
+                    </system>
+                    <magento_localized>
+                        <title>Magento CH</title>
+                    </magento_localized>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Austrian Localization package for Magento Localized (aka Magento AT) 
+ *
+ * @category   IntegerNet
+ * @package    IntegerNet_MagentoLocalizedAT
+ * @copyright  Copyright (c) 2013 integer_net GmbH (http://www.integer-net.de/)
+ * @license    http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
+ * @author     Andreas von Studnitz <avs@integer-net.de>
+ */
+ -->
+<config>
+    <modules>
+        <IntegerNet_MagentoLocalizedAT>
+            <version>0.1.0</version>
+        </IntegerNet_MagentoLocalizedAT>
+    </modules>
+
+    <global>
+        <resources>
+            <magento_localized_at_setup>
+                <setup>
+                    <module>IntegerNet_MagentoLocalizedAT</module>
+                </setup>
+            </magento_localized_at_setup>
+        </resources>
+    </global>
+
+    <default>
+        <general>
+            <country>
+                <allow>AT</allow>
+            </country>
+            <locale>
+                <code>de_AT</code>
+                <code_fallback>de_DE</code_fallback>
+                <firstday>1</firstday>
+            </locale>
+            <store_information>
+                <merchant_country>AT</merchant_country>
+            </store_information>
+            <imprint>
+                <country>AT</country>
+                <display_copyright>1</display_copyright>
+            </imprint>
+        </general>
+
+        <design>
+            <header>
+                <welcome>Herzlich Willkommen!</welcome>
+            </header>
+        </design>
+
+        <catalog>
+            <custom_options>
+                <time_format>24h</time_format>
+                <date_fields_order>d,m,y</date_fields_order>
+            </custom_options>
+            <baseprice>
+                <base_price_incl_tax>1</base_price_incl_tax>
+                <frontend_label>entspricht {{baseprice}} pro {{reference_amount}} {{reference_unit}}</frontend_label>
+            </baseprice>
+        </catalog>
+
+        <sales>
+            <reorder>
+                <allow>0</allow>
+                <hide_sidebar_box>1</hide_sidebar_box>
+            </reorder>
+        </sales>
+
+        <autoshipping>
+            <settings>
+                <enabled>1</enabled>
+                <country_id>AT</country_id>
+            </settings>
+        </autoshipping>
+
+        <carriers>
+            <flatrate>
+                <title>Versandkosten</title>
+                <name>Pauschal</name>
+                <type>O</type>
+                <price>4.90</price>
+            </flatrate>
+            <freeshipping>
+                <active>1</active>
+                <title>Versandkosten</title>
+                <name>Versandkostenfrei</name>
+                <free_shipping_subtotal>50</free_shipping_subtotal>
+            </freeshipping>
+        </carriers>
+
+        <payment>
+            <ccsave>
+                <active>0</active>
+            </ccsave>
+            <ATeckmo>
+                <active>0</active>
+            </ATeckmo>
+            <free>
+                <title>Kostenfrei</title>
+            </free>
+            <banktransfer>
+                <active>1</active>
+                <title>Vorkasse</title>
+                <sort_order>20</sort_order>
+            </banktransfer>
+            <debit>
+                <active>1</active>
+                <title>LastsATrift</title>
+                <sort_order>30</sort_order>
+                <order_status>pending</order_status>
+                <allowspecific>1</allowspecific>
+                <specificcountry>DE</specificcountry>
+            </debit>
+            <cashondelivery>
+                <active>1</active>
+                <title>NaATnahme</title>
+                <sort_order>40</sort_order>
+                <order_status>pending</order_status>
+                <shippingallowspecific>1</shippingallowspecific>
+                <shippingspecificcountry>DE</shippingspecificcountry>
+                <inlandcosts>2</inlandcosts>
+                <customtext>Bei Zahlung per NaATnahme erhebt der Zusteller zusätzliAT 2,00 €
+                    Übermittlungsentgelt vor Ort.</customtext>
+            </cashondelivery>
+        </payment>
+
+        <magento_localized>
+            <module_title>Magento AT</module_title>
+            <module_code>magento_AT</module_code>
+            <module_url>http://de.nr-apps.com/store/magento-AT.html</module_url>
+            <logo_filename>magento_localized/logo.png</logo_filename>
+            <tracking_url>http://www.nr-apps.com/store/germanstoreconfig/tracking</tracking_url>
+            <newsfeed_url>http://www.nr-apps.com/store/media/germanstoreconfig/feed.xml</newsfeed_url>
+            <iframe_url_prefix>https://www.nr-apps.com/n/magento-AT/</iframe_url_prefix>
+            <iframe_url_suffix>.html</iframe_url_suffix>
+            <feed_url_prefix>http://www.nr-apps.com/store/media/germanstoreconfig/</feed_url_prefix>
+            <default_language>
+                <code>de</code>
+                <name>German</name>
+            </default_language>
+            <available_languages>
+                <en_US>English</en_US>
+                <fr_FR>French</fr_FR>
+                <it_IT>Italian</it_IT>
+            </available_languages>
+            <country>AT</country>
+            <currency>EUR</currency>
+            <timezone>Europe/Berlin</timezone>
+            <form_fields>
+                <general__imprint__ceo>
+                    <type>text</type>
+                    <label>CEO</label>
+                    <sorting>250</sorting>
+                    <optional>1</optional>
+                </general__imprint__ceo>
+                <general__imprint__owner>
+                    <type>text</type>
+                    <label>Owner</label>
+                    <sorting>260</sorting>
+                    <optional>1</optional>
+                </general__imprint__owner>
+            </form_fields>
+            <modules>
+                <firegento_pdf>
+                    <description>Ersetzt die Standard-PDFs für Rechnungen, Lieferscheine und Gutschriften durch bessere Versionen</description>
+                </firegento_pdf>
+                <dermodpro_baseprice>
+                    <name>Grundpreis-Modul</name>
+                    <description>Automatische Berechnung und Anzeige des Grundpreises für Artikel</description>
+                    <url>http://de.nr-apps.com/store/baseprice-extension-basic.html</url>
+                    <is_default>1</is_default>
+                </dermodpro_baseprice>
+                <aoe_managestores>
+                    <description>Ein deutlich intuitiveres Interface zum Verwalten von Websites, Stores und Store Views</description>
+                </aoe_managestores>
+                <aoe_jscsststamp>
+                    <description>Automatisches Versionieren von Javascript- und CSS-Dateien</description>
+                    <url>http://www.fabrizio-branca.de/automatisches-versionieren-von-javascript-und-css-dateien-in-magento.html</url>
+                </aoe_jscsststamp>
+            </modules>
+        </magento_localized>
+        <germansetup>
+            <default_country>AT</default_country>
+        </germansetup>
+    </default>
+</config>
