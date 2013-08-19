@@ -144,14 +144,11 @@
             <iframe_url_prefix>https://www.nr-apps.com/n/magento-AT/</iframe_url_prefix>
             <iframe_url_suffix>.html</iframe_url_suffix>
             <feed_url_prefix>http://www.nr-apps.com/store/media/germanstoreconfig/</feed_url_prefix>
-            <default_language>
-                <code>de</code>
-                <name>German</name>
-            </default_language>
+            <default_language>de_DE</default_language>
             <available_languages>
-                <en_US>English</en_US>
-                <fr_FR>French</fr_FR>
-                <it_IT>Italian</it_IT>
+                <en_US />
+                <fr_FR />
+                <it_IT />
             </available_languages>
             <country>AT</country>
             <currency>EUR</currency>
