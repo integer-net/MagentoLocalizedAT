@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Austrian Localization package for Magento Localized (aka Magento AT)
+ *
+ * @category   IntegerNet
+ * @package    IntegerNet_MagentoLocalizedAT
+ * @copyright  Copyright (c) 2013 integer_net GmbH (http://www.integer-net.de/)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @author     Andreas von Studnitz <avs@integer-net.de>
+ */
+ -->
+<config>
+
+    <wizard>
+        <steps>
+            <begin translate="code">
+                <code>License Agreement</code>
+                <controller>wizard</controller>
+                <action>begin</action>
+            </begin>
+        </steps>
+    </wizard>
+
+</config>
