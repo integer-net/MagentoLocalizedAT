@@ -260,15 +260,52 @@
                     <name>Grundpreis-Modul</name>
                     <description>Automatische Berechnung und Anzeige des Grundpreises für Artikel</description>
                     <url>http://de.nr-apps.com/store/baseprice-extension-basic.html</url>
-                    <is_default>1</is_default>
                 </dermodpro_baseprice>
                 <aoe_managestores>
+                    <name>Store-Verwaltung</name>
                     <description>Ein deutlich intuitiveres Interface zum Verwalten von Websites, Stores und Store Views</description>
                 </aoe_managestores>
-                <aoe_jscsststamp>
-                    <description>Automatisches Versionieren von Javascript- und CSS-Dateien</description>
-                    <url>http://www.fabrizio-branca.de/automatisches-versionieren-von-javascript-und-css-dateien-in-magento.html</url>
-                </aoe_jscsststamp>
+                <avstudnitz_scopehint>
+                    <name>Scope Hint</name>
+                    <description>Zeigt an, wenn ein Konfigurationswert auf einem niedrigeren Level (Website oder StoreView) überschrieben ist.</description>
+                </avstudnitz_scopehint>
+                <avstudnitz_admin_notification_advanced>
+                    <name>Erweiterte Admin-Benachrichtigungen</name>
+                    <description>Verbessert die Handhabung von Admin-Benachrichtigungen mit Buttons wie "alle gelesen" und "alle löschen".</description>
+                </avstudnitz_admin_notification_advanced>
+                <timreynolds_magento_qconfig>
+                    <name>Schnelle Konfigurations-Suche</name>
+                    <description>Fügt eine Schnellsuche-Funktionalität zum Konfigurationsbereich hinzu.</description>
+                </timreynolds_magento_qconfig>
+                <integernet_removecustomeraccountlinks>
+                    <name>Kundenkonto-Links entfernen</name>
+                    <description>Entfernt überflüssige Links wie "Meine Downloads" und "Meine Schlagworte" aus der Benutzerkonto-Navigation</description>
+                    <url>http://www.integer-net.de/benutzerkonto-magento-deaktivieren-von-menupunkten/</url>
+                </integernet_removecustomeraccountlinks>
+                <integernet_autoshipping>
+                    <name>Autoshipping</name>
+                    <description>Zeigt Versandkosten bereits im Warenkorb an, und ermöglicht es, dort das Zielland zu wechseln.</description>
+                    <url>http://www.integer-net.de/magento-versandkostenvorschau-im-warenkorb-mit-integernet_autoshipping/</url>
+                </integernet_autoshipping>
+                <cashondelivery>
+                    <name>Nachnahme (Zahlungsart)</name>
+                    <description>Ermöglicht das Hinzufügen einer Nachnahmegebühr, abhängig von Inlands- oder Auslandsversand.</description>
+                    <is_default>0</is_default>
+                </cashondelivery>
+                <bankpayment>
+                    <name>Vorkasse (Zahlungsart)</name>
+                    <description>Zahlungsart "Vorkasse"</description>
+                    <is_default>0</is_default>
+                </bankpayment>
+                <itabs_invoice>
+                    <name>Rechnung (Zahlungsart)</name>
+                    <description>Zahlungsart "Rechnung" mit Einschränkung auf bestimmte Kundengruppen</description>
+                </itabs_invoice>
+                <therouv_debitpayment>
+                    <name>Lastschrift (Zahlungsart)</name>
+                    <description>Zahlungsart "Rechnung"</description>
+                    <is_default>0</is_default>
+                </therouv_debitpayment>
             </modules>
         </magento_localized>
         <germansetup>
