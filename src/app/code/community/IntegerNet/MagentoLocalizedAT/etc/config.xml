@@ -158,6 +158,10 @@
                 <de>http://www.nr-apps.com/n/magento_at_de/guide.html</de>
                 <default>http://www.nr-apps.com/n/magento_at_en/guide.html</default>
             </install_guide_url>
+            <survey_url>
+                <de>http://www.nr-apps.com/n/magento_at_de/survey.html</de>
+                <default>http://www.nr-apps.com/n/magento_at_en/survey.html</default>
+            </survey_url>
             <form_fields>
                 <general__imprint__vat_id>
                     <type>text</type>
