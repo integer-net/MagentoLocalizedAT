@@ -138,7 +138,7 @@
             <module_code>magento_at</module_code>
             <module_url>http://de.nr-apps.com/store/magento-at.html</module_url>
             <logo_filename>magento_localized/logo.png</logo_filename>
-            <tracking_url>http://www.nr-apps.com/store/germanstoreconfig/tracking</tracking_url>
+            <tracking_url>http://www.nr-apps.com/n/germanstoreconfig/tracking</tracking_url>
             <newsfeed_url>http://www.nr-apps.com/store/media/germanstoreconfig/feed.xml</newsfeed_url>
             <iframe_url_prefix>https://www.nr-apps.com/n/magento_at_</iframe_url_prefix>
             <iframe_url_suffix>.html</iframe_url_suffix>
