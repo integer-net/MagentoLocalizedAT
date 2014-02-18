@@ -139,12 +139,12 @@
             <module_url>http://de.nr-apps.com/store/magento-at.html</module_url>
             <logo_filename>magento_localized/logo.png</logo_filename>
             <tracking_url>http://www.nr-apps.com/n/germanstoreconfig/tracking</tracking_url>
-            <newsfeed_url>http://www.nr-apps.com/store/media/germanstoreconfig/feed.xml</newsfeed_url>
+            <newsfeed_url>http://www.nr-apps.com/n/media/germanstoreconfig/feed.xml</newsfeed_url>
             <iframe_url_prefix>https://www.nr-apps.com/n/magento_at_</iframe_url_prefix>
             <iframe_url_suffix>.html</iframe_url_suffix>
             <iframe_main_language_code>de</iframe_main_language_code>
             <iframe_fallback_language_code>en</iframe_fallback_language_code>
-            <feed_url_prefix>http://www.nr-apps.com/store/media/germanstoreconfig/</feed_url_prefix>
+            <feed_url_prefix>http://www.nr-apps.com/n/media/germanstoreconfig/</feed_url_prefix>
             <default_language>de_DE</default_language>
             <available_languages>
                 <en_US />
