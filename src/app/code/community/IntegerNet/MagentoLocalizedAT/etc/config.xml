@@ -269,10 +269,6 @@
                     <description>Automatische Berechnung und Anzeige des Grundpreises für Artikel</description>
                     <url>http://de.nr-apps.com/store/baseprice-extension-basic.html</url>
                 </dermodpro_baseprice>
-                <aoe_managestores>
-                    <name>Store-Verwaltung</name>
-                    <description>Ein deutlich intuitiveres Interface zum Verwalten von Websites, Stores und Store Views</description>
-                </aoe_managestores>
                 <avstudnitz_scopehint>
                     <name>Scope Hint</name>
                     <description>Zeigt an, wenn ein Konfigurationswert auf einem niedrigeren Level (Website oder StoreView) überschrieben ist.</description>
