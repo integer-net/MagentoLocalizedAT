@@ -138,9 +138,9 @@
             <module_code>magento_at</module_code>
             <module_url>http://de.nr-apps.com/store/magento-at.html</module_url>
             <logo_filename>magento_localized/logo.png</logo_filename>
-            <tracking_url>http://www.nr-apps.com/n/germanstoreconfig/tracking</tracking_url>
+            <tracking_url>//www.nr-apps.com/n/germanstoreconfig/tracking</tracking_url>
             <newsfeed_url>http://www.nr-apps.com/n/media/germanstoreconfig/feed.xml</newsfeed_url>
-            <iframe_url_prefix>https://www.nr-apps.com/n/magento_at_</iframe_url_prefix>
+            <iframe_url_prefix>//www.nr-apps.com/n/magento_at_</iframe_url_prefix>
             <iframe_url_suffix>.html</iframe_url_suffix>
             <iframe_main_language_code>de</iframe_main_language_code>
             <iframe_fallback_language_code>en</iframe_fallback_language_code>
@@ -159,8 +159,8 @@
                 <default>http://www.nr-apps.com/n/magento_at_en/guide.html</default>
             </install_guide_url>
             <survey_url>
-                <de>http://www.nr-apps.com/n/magento_at_de/survey.html</de>
-                <default>http://www.nr-apps.com/n/magento_at_en/survey.html</default>
+                <de>//www.nr-apps.com/n/magento_at_de/survey.html</de>
+                <default>//www.nr-apps.com/n/magento_at_en/survey.html</default>
             </survey_url>
             <form_fields>
                 <general__imprint__vat_id>
@@ -269,10 +269,6 @@
                     <description>Automatische Berechnung und Anzeige des Grundpreises für Artikel</description>
                     <url>http://de.nr-apps.com/store/baseprice-extension-basic.html</url>
                 </dermodpro_baseprice>
-                <aoe_managestores>
-                    <name>Store-Verwaltung</name>
-                    <description>Ein deutlich intuitiveres Interface zum Verwalten von Websites, Stores und Store Views</description>
-                </aoe_managestores>
                 <avstudnitz_scopehint>
                     <name>Scope Hint</name>
                     <description>Zeigt an, wenn ein Konfigurationswert auf einem niedrigeren Level (Website oder StoreView) überschrieben ist.</description>
@@ -315,6 +311,9 @@
                     <is_default>0</is_default>
                 </therouv_debitpayment>
             </modules>
+            <billsafe>
+                <is_available>1</is_available>
+            </billsafe>
         </magento_localized>
         <magesetup>
             <default_country>AT</default_country>
