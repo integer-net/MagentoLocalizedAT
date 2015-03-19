@@ -122,7 +122,7 @@
             </debit>
             <cashondelivery>
                 <active>1</active>
-                <title>NaATnahme</title>
+                <title>Nachnahme</title>
                 <sort_order>40</sort_order>
                 <order_status>pending</order_status>
                 <shippingallowspecific>1</shippingallowspecific>
@@ -316,8 +316,8 @@
                 </therouv_debitpayment>
             </modules>
         </magento_localized>
-        <germansetup>
+        <magesetup>
             <default_country>AT</default_country>
-        </germansetup>
+        </magesetup>
     </default>
 </config>
